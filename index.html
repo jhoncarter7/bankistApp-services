@@ -13,16 +13,16 @@
 <body>
     <header>
         <nav class="head">
-            <img src="./img/logo.png" alt="">
+            <img src="./img/logo.png" alt="Bankist logo" id="logo">
             <ul class="head-options">
                 <li class="head-links head-link">
-                    <a class="feature-link" href="">Features</a>
+                    <a class="feature-link" href="#section-1">Features</a>
                 </li>
                 <li class="head-links">
-                    <a href="">Operation</a>
+                    <a href="#section-2">Operation</a>
                 </li>
                 <li class="head-links">
-                    <a href="">Testimonials</a>
+                    <a href="#section-3">Testimonials</a>
                 </li>
                 <button class="open-account">Open accounts</button>
             </ul>
@@ -91,15 +91,15 @@
             <P class="sec-heading">Everything as simple as possible, but no simpler.</P>
         </div>
         <div class="options-btn">
-            <button class="transfer-btn">01 Instant Transfer</button>
-            <button class="loan-btn">02 Instant Loan</button>
-            <button class="closing-btn">03 Instant Closing</button>
+            <button class="tabs transfer-btn active-tab" data-tab = "1"><span>01 </span>  Instant Transfer</button>
+            <button class="tabs loan-btn" data-tab = "2"> <span>02 </span> Instant Loan</button>
+            <button class="tabs closing-btn" data-tab = "3"> <span>03 </span> Instant Closing</button>
         </div>
 
+     
+        <div class="swap-section">
 
-        <div class="sweap-section">
-
-        <div class=" ">
+        <div class="same-swap swap-1 display displays-active ">
             <h1>Tranfser money to anyone, instantly! No fees, no BS.</h1>
             <br>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium est sint architecto nemo aperiam.
@@ -108,14 +108,14 @@
         </div>
 
 
-        <div class="display">
+        <div class="same-swap swap-2 display">
             <h1> Buy a home or make your dreams come true, with instant loans.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam cum, eaque esse quam quia
                 molestiae, voluptas minus hic, voluptates similique natus eius!</p>
         </div>
 
 
-        <div class="display">
+        <div class="same-swap swap-3 display ">
             <h1>No longer need your account? No problem! Close it instantly.</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis autem omnis nesciunt quisquam nemo,
                 ducimus, voluptates dolorum fuga asperiores, itaque nam ratione laudantium id ab eveniet accusantium
@@ -125,7 +125,7 @@
     </div>
     </section>
 
-    <section class="section section-3"  >
+    <section class="section"  id="section-3">
 <div class="sec3-heading">
      <h1 class="green-title">NOT SURE YET? </h1>
      <p class="sec-heading"> Millions of Bankists are already making their lifes simpler.</p>
@@ -166,13 +166,11 @@
      <p> UTTARPRADESH, INDIA</p>
    </address>
   </div>
-
-
-
 </div>
       
     </section>
 
+    
     <script src="script.js"></script>
 
 </body>

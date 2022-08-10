@@ -42,10 +42,10 @@ img{
     color: #4d4d4d;
 
 }
-.head-links a:hover{
+/* .head-links a:hover{
     color: black;
     font-size: 2rem;
-}
+} */
 
 .open-account{
     border: none;
@@ -152,15 +152,13 @@ img{
   margin-right: 15rem;
 }
 
-#section-2{
 
-}
 .sec2-heading{
  margin-left: 12%;
 
 }
 .options-btn{
-  margin: 6.5rem auto;
+  margin: 6.7rem auto;
    position: absolute;
    left: 22rem;
 }
@@ -192,8 +190,8 @@ img{
     cursor: pointer;
 }
 
-.sweap-section{
-    border: 2px solid ;
+.swap-section{
+   border: none;
     margin: 8rem 2rem;
     padding: 5rem 8rem 5rem 12rem;
    background-color: wheat;
@@ -201,9 +199,14 @@ img{
    font-family: 'Poppins', sans-serif;
 
 }
-
+.active-tab{
+    transform: translateY(-19%);
+}
 .display{
     display: none;
+}
+.displays-active{
+    display: block;
 }
 
 .sec3-heading{
