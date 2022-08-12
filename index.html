@@ -11,20 +11,20 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="head">
             <img src="./img/logo.png" alt="Bankist logo" id="logo">
             <ul class="head-options">
                 <li class="head-links head-link">
                     <a class="feature-link" href="#section-1">Features</a>
                 </li>
-                <li class="head-links">
-                    <a href="#section-2">Operation</a>
+                <li class="head-links head-link">
+                    <a class="feature-link" href="#section-2">Operation</a>
                 </li>
-                <li class="head-links">
-                    <a href="#section-3">Testimonials</a>
+                <li class="head-links head-link">
+                    <a class="feature-link" href="#section-3">Testimonials</a>
                 </li>
-                <button class="open-account">Open accounts</button>
+                <button class="open-account feature-link">Open accounts</button>
             </ul>
         </nav>
 
@@ -48,7 +48,7 @@
         </div>
 
         <div class="section1-feature  Features1">
-            <img src="./img/digital-lazy.jpg" alt="" class="images image1">
+            <img src="./img/digital-lazy.jpg" data-src="./img/digital.jpg" alt="" class="images image1 lazy-img">
             <div class="image-details">
                 <h1>100% digital bank</h1>
                 <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam alias hic, numquam sint odit
@@ -67,11 +67,11 @@
                     rem cupiditate, saepe laboriosam tenetur dicta suscipit vero molestiae adipisci consectetur
                     recusandae! Totam sequi fugiat velit tempora praesentium?</p>
             </div>
-            <img src="./img/grow-lazy.jpg" alt="" class="images image2">
+            <img src="./img/grow-lazy.jpg" data-src="./img/grow.jpg" alt="" class="images image2 lazy-img">
         </div>
 
         <div class="section1-feature Features3">
-            <img src="./img/card-lazy.jpg" alt="" class="images image3">
+            <img src="./img/card-lazy.jpg" data-src="./img/card.jpg" alt="" class="images image3 lazy-img">
             <div class="image-details">
                 <h1>Free debit card included</h1>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque unde repellat aut dolore labore
@@ -91,86 +91,114 @@
             <P class="sec-heading">Everything as simple as possible, but no simpler.</P>
         </div>
         <div class="options-btn">
-            <button class="tabs transfer-btn active-tab" data-tab = "1"><span>01 </span>  Instant Transfer</button>
-            <button class="tabs loan-btn" data-tab = "2"> <span>02 </span> Instant Loan</button>
-            <button class="tabs closing-btn" data-tab = "3"> <span>03 </span> Instant Closing</button>
+            <button class="tabs transfer-btn active-tab" data-tab="1"><span>01 </span> Instant Transfer</button>
+            <button class="tabs loan-btn" data-tab="2"> <span>02 </span> Instant Loan</button>
+            <button class="tabs closing-btn" data-tab="3"> <span>03 </span> Instant Closing</button>
         </div>
 
-     
+
         <div class="swap-section">
 
-        <div class="same-swap swap-1 display displays-active ">
-            <h1>Tranfser money to anyone, instantly! No fees, no BS.</h1>
-            <br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium est sint architecto nemo aperiam.
-                Excepturi, esse dolore quo non natus cupiditate pariatur nemo assumenda eveniet eligendi corporis
-                similique? Porro voluptatem non dolorem eveniet.</p>
+            <div class="same-swap swap-1 display displays-active ">
+                <h1>Tranfser money to anyone, instantly! No fees, no BS.</h1>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium est sint architecto nemo
+                    aperiam.
+                    Excepturi, esse dolore quo non natus cupiditate pariatur nemo assumenda eveniet eligendi corporis
+                    similique? Porro voluptatem non dolorem eveniet.</p>
+            </div>
+
+
+            <div class="same-swap swap-2 display">
+                <h1> Buy a home or make your dreams come true, with instant loans.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam cum, eaque esse quam
+                    quia
+                    molestiae, voluptas minus hic, voluptates similique natus eius!</p>
+            </div>
+
+
+            <div class="same-swap swap-3 display ">
+                <h1>No longer need your account? No problem! Close it instantly.</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis autem omnis nesciunt quisquam nemo,
+                    ducimus, voluptates dolorum fuga asperiores, itaque nam ratione laudantium id ab eveniet accusantium
+                    velit accusamus.</p>
+            </div>
+
         </div>
-
-
-        <div class="same-swap swap-2 display">
-            <h1> Buy a home or make your dreams come true, with instant loans.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus laboriosam cum, eaque esse quam quia
-                molestiae, voluptas minus hic, voluptates similique natus eius!</p>
-        </div>
-
-
-        <div class="same-swap swap-3 display ">
-            <h1>No longer need your account? No problem! Close it instantly.</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis autem omnis nesciunt quisquam nemo,
-                ducimus, voluptates dolorum fuga asperiores, itaque nam ratione laudantium id ab eveniet accusantium
-                velit accusamus.</p>
-        </div>
-
-    </div>
     </section>
 
-    <section class="section"  id="section-3">
-<div class="sec3-heading">
-     <h1 class="green-title">NOT SURE YET? </h1>
-     <p class="sec-heading"> Millions of Bankists are already making their lifes simpler.</p>
-    </div>
-<div class="sliding">
-    <div class="slid">
-     <h1>Best financial decision ever!</h1>
-     <blockquote>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.
-     </blockquote>
-     <address>
-        <img src="./img/user-1.jpg" alt="">
-       <h6> Nikhil Rai</h6>
-       <p> UTTARPRADESH, INDIA</p>
-     </address>
-    </div>
+    <section class="section" id="section-3">
+        <div class="sec3-heading">
+            <h1 class="green-title">NOT SURE YET? </h1>
+            <p class="sec-heading"> Millions of Bankists are already making their lifes simpler.</p>
+        </div>
+        <div class="sliding">
+            <div class="slide">
+                <h1>Best financial decision ever!</h1>
+                <blockquote>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas
+                    voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam
+                    sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere
+                    pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.
+                </blockquote>
+                <address>
+                    <img src="./img/user-1.jpg" alt="" class="scroll-img">
+                    <h6> Nikhil Rai</h6>
+                    <p> UTTARPRADESH, INDIA</p>
+                </address>
+            </div>
+
+            
+            <div class="slide silde-position">
+                <h1>The last step to becoming a complete minimalist</h1>
+                <blockquote>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas
+                    voluptate
+                    nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt,
+                    praesentium
+                    suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam
+                    autem
+                    esse non voluptatem saepe provident nihil molestiae.
+                </blockquote>
+                <address>
+                    <img src="./img/user-2.jpg" alt="" class="scroll-img">
+                    <h6> Aditya Singh</h6>
+                    <p> UTTARPRADESH, INDIA</p>
+                </address>
+            </div>
+
+            <div class="slide silde-position">
+                <h1>Finally free from old-school bank</h1>
+                <blockquote>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas
+                    voluptate
+                    nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt,
+                    praesentium
+                    suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam
+                    autem
+                    esse non voluptatem saepe provident nihil molestiae.
+                </blockquote>
+                <address>
+                    <img src="./img/user-3.jpg" alt="" class="scroll-img">
+                    <h6>Jai maha dev</h6>
+                    <p> UTTARPRADESH, INDIA</p>
+                </address>
+            </div>
 
 
-    <h1>The last step to becoming a complete minimalist</h1>
-    <blockquote>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.
-    </blockquote>
-    <address>
-       <img src="./img/user-2.jpg" alt="">
-      <h6> Aditya Singh</h6>
-      <p> UTTARPRADESH, INDIA</p>
-    </address>
-   </div>
+        </div>
+        <div class="button-slides-bas">
+            <button class="butt-left"><img src="./img/button-left.jpg" alt=""></button>
+            <button class="butt-right"><img src="./img/button-left.jpg" alt=""></button>
+        </div>
 
+        <div>
+            <button class="dots"></button>
+        </div>
 
-   <h1>Finally free from old-school bank</h1>
-   <blockquote>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium quas quisquam non? Quas voluptate nulla minima deleniti optio ullam nesciunt, numquam corporis et asperiores laboriosam sunt, praesentium suscipit blanditiis. Necessitatibus id alias reiciendis, perferendis facere pariatur dolore veniam autem esse non voluptatem saepe provident nihil molestiae.
-   </blockquote>
-   <address>
-      <img src="./img/user-3.jpg" alt="">
-     <h6>Jai maha dev</h6>
-     <p> UTTARPRADESH, INDIA</p>
-   </address>
-  </div>
-</div>
-      
     </section>
 
-    
+
     <script src="script.js"></script>
 
 </body>
