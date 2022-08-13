@@ -1,6 +1,9 @@
 'use strict';
 
-
+const featurelink  = document.querySelectorAll('.feature-link')
+const formcontainer = document.querySelector('.form-container')
+const closebtn  = document.querySelector('.close-btn')
+const blurbody  = document.querySelector('.blur-body')
 const learnBtn = document.querySelector('.learn-btn');
 const section1 = document.querySelector('#section-1');
 const headOptions = document.querySelector('.head-options');
@@ -9,6 +12,35 @@ const subhead = document.querySelector('.sub-head')
 const optionbtn = document.querySelector('.options-btn');
 const tabs = document.querySelectorAll('.tabs');
 const sameSwap = document.querySelectorAll('.same-swap');
+
+
+
+featurelink.forEach(p => p.addEventListener('click', function(){
+  formcontainer.classList.remove('hidden')
+  blurbody.classList.remove('hidden')
+
+}));
+
+const closedModel = function(e){
+  e.preventDefault()
+  formcontainer.classList.add('hidden')
+  blurbody.classList.add('hidden')
+};
+
+closebtn.addEventListener('click', closedModel);
+
+document.addEventListener('keydown', function(e){
+
+  if(e.key === "Escape"){
+    formcontainer.classList.add('hidden')
+    blurbody.classList.add('hidden')
+  }
+});
+
+
+
+
+
 
 
 learnBtn.addEventListener('click', function (e) {
