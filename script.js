@@ -1,6 +1,6 @@
 'use strict';
 
-const featurelink  = document.querySelectorAll('.feature-link')
+const featurelink  = document.querySelectorAll('.feature-links')
 const formcontainer = document.querySelector('.form-container')
 const closebtn  = document.querySelector('.close-btn')
 const blurbody  = document.querySelector('.blur-body')
